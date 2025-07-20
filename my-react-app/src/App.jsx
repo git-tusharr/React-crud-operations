@@ -1,16 +1,17 @@
-import Header from "./Header";
-import Data from "./Data";
+import Students from "./Students";
+const name="tushar";
+const rollno=342;
+const stuclass="btech";
+const totalfees=90000;
 
 const App=()=>{
   return(
 
     <>
-    <h1>My Name is Tushar </h1>
-    <Header></Header>
-    <Data></Data>
-
+    <h1>Welcome </h1>
+    <Students name={name} rno={rollno} class={stuclass} fees={totalfees} /> 
     </>
   )
 }
 
-export default App;
+export default App; 

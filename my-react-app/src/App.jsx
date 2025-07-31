@@ -1,28 +1,42 @@
 import { useState } from "react";
+import axios from "axios";
 const App=()=>{
 
-  const [name,setName]=useState("")
-  const [city,setCity]=useState("")
+  const [input,setInput]=useState({});
 
-  const handleSubmit=()=>{
-    console.log({name:name,city:city})
+  const handleInput=(e)=>{
+
+  let name=e.target.name;
+  let value=e.target.value;
+
+  setInput(values=>({...values,[name]:value}))
+  console.log(input)
   }
 
-  
+  const handleSubmit=async()=>{
+    let api="http://localhost:3000/students";
+    const response=await axios.post(api,input);
+    console.log(response);
+    alert("data Saved");
+  }
 
 return(
   <>
   <h1>Application form </h1>
 
-  Enter Name : <input type="text" value={name}
-  onChange={(e)=>{setName(e.target.value)}} />
+  Enter rollno : <input type="text" name="rollno" onChange={handleInput}/>
+
   <br />
-  Enter city : <input type="text" value={city} 
-  onChange={(e)=>{setCity(e.target.value)}}/>
+  Enter name : <input type="text" name="name" onChange={handleInput}/>
+
   <br />
+  Enter city : <input type="text" name="city" onChange={handleInput}/>
+
+  <br />
+  Enter fees : <input type="text" name="fees" onChange={handleInput}/>
+
+ <br />
   <button onClick={handleSubmit}>Submit</button>
-
-
 
   </>
 )

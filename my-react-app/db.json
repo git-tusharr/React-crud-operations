@@ -1,0 +1,39 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "rollno": 101,
+      "name": "Tushar",
+      "city": "bhopal",
+      "fees": 45000
+    },
+    {
+      "id": "c4ba",
+      "rollno": "1000",
+      "name": "tushar",
+      "city": "Bhopal ",
+      "fees": "45000"
+    },
+    {
+      "id": "f732",
+      "rollno": "1001",
+      "name": "prashant",
+      "city": "Bhopal ",
+      "fees": "45000"
+    },
+    {
+      "id": "96b7",
+      "rollno": "1002",
+      "name": "vineet",
+      "city": "Bhopal ",
+      "fees": "45000"
+    },
+    {
+      "id": "5814",
+      "rollno": "1003",
+      "name": "raj",
+      "city": "Bhopal ",
+      "fees": "45000"
+    }
+  ]
+}

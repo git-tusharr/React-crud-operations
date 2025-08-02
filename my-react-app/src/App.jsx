@@ -1,59 +1,42 @@
-import { useState } from "react";
-import axios from "axios";
+import { BrowserRouter,Routes,Route } from "react-router-dom";
+
+// i have imported componets from pages
+import Home from "./pages/Home";
+import Insert from "./pages/insert";
+import Display from "./pages/Display";
+import Contact from "./pages/Contact";
+import Update from "./pages/Update";
+import Search from "./pages/Search";
+import Layout from "./Layout";
+
+
+
 const App=()=>{
 
-  const [input,setInput]=useState({});
+  return(
+    <>
 
-  const handleInput=(e)=>{
 
-  let name=e.target.name;
-  let value=e.target.value;
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout/>}>
 
-  setInput(values=>({...values,[name]:value}))
-  console.log(input)
-  }
+          <Route path="Home" element={<Home/>}></Route>
+          <Route index element={<Home></Home>}></Route>
+          <Route path="Insert" element={<Insert></Insert>}></Route>
+          <Route path="Contact" element={<Contact></Contact>} ></Route>   
+          <Route path="Display" element={<Display></Display>}   ></Route>
+          <Route path="Search" element={<Search></Search>}></Route>
+          <Route path="Update" element={<Update></Update>}></Route>
 
-  const handleSubmit=async()=>{
-    let api="http://localhost:3000/students";
-    const response=await axios.post(api,input);
-    console.log(response);
-    alert("data Saved");
-  }
+        </Route>
+      </Routes>
+    </BrowserRouter>
 
-return(
-  <>
-  <h1>Application form </h1>
-
-  Enter rollno : <input type="text" name="rollno" onChange={handleInput}/>
-
-  <br />
-  Enter name : <input type="text" name="name" onChange={handleInput}/>
-
-  <br />
-  Enter city : <input type="text" name="city" onChange={handleInput}/>
-
-  <br />
-  Enter fees : <input type="text" name="fees" onChange={handleInput}/>
-
- <br />
-  <button onClick={handleSubmit}>Submit</button>
-
-  </>
-)
-
+    
+    
+    </>
+  )
 }
+
 export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-

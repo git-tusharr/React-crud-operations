@@ -1,7 +1,5 @@
     import { Link,Outlet } from "react-router-dom";
 
-
-
     const Layout=()=>{
 
         return(
@@ -14,20 +12,12 @@
         <Link to="update">Update</Link>
 
         <hr />
-
             <Outlet></Outlet>
-
         <hr />
-
         www.myCompany.com all rights reserved
-
-       
-        
         </>
     )
 
-
     }
-
     
     export default Layout;

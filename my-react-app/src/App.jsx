@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Update from "./pages/Update";
 import Search from "./pages/Search";
 import Layout from "./Layout";
+import MyEdit from "./pages/MyEdit";
 
 
 
@@ -28,6 +29,7 @@ const App=()=>{
           <Route path="Display" element={<Display></Display>}   ></Route>
           <Route path="Search" element={<Search></Search>}></Route>
           <Route path="Update" element={<Update></Update>}></Route>
+          <Route path="myEdit/:id" element={<MyEdit></MyEdit>}></Route>
 
         </Route>
       </Routes>

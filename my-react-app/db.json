@@ -1,67 +1,25 @@
 {
   "students": [
     {
-      "id": "1",
-      "rollno": 101,
-      "name": "Tushar",
-      "city": "bhopal",
-      "fees": 45000
-    },
-    {
-      "id": "c4ba",
-      "rollno": "1000",
-      "name": "tushar",
-      "city": "Bhopal ",
-      "fees": "45000"
-    },
-    {
-      "id": "5f2e",
-      "rollno": "1000",
-      "name": "tushar",
-      "city": "Bhopal ",
-      "fees": "45000"
-    },
-    {
-      "id": "aef7",
-      "rollno": "1000",
-      "name": "tushar",
-      "city": "Bhopal ",
-      "fees": "45000"
-    },
-    {
-      "id": "741a",
-      "rollno": "21",
+      "id": "6052",
+      "rollno": "102",
       "name": "prashant",
       "city": "indore",
-      "fees": "45000"
+      "fees": "10000"
     },
     {
-      "id": "87d6",
-      "rollno": "21",
-      "name": "prashant",
+      "id": "1d0f",
+      "rollno": "103",
+      "name": "vineet",
       "city": "indore",
-      "fees": "45000"
+      "fees": "20000"
     },
     {
-      "id": "dfde",
-      "rollno": "21",
-      "name": "prashant",
+      "id": "904e",
+      "rollno": "104",
+      "name": "vinay",
       "city": "indore",
-      "fees": "45000"
-    },
-    {
-      "id": "afeb",
-      "rollno": "21",
-      "name": "prashant",
-      "city": "indore",
-      "fees": "45000"
-    },
-    {
-      "id": "1de7",
-      "rollno": "1",
-      "name": "tushar",
-      "city": "Bhopal ",
-      "fees": "45000"
+      "fees": "30000"
     }
   ]
 }

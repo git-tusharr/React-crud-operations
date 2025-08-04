@@ -45,7 +45,7 @@ const Display=()=>{
             </tr>
             {ans}
         </table>
-        
+         
         </>
     )
 }

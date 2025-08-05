@@ -1,24 +1,24 @@
 {
   "students": [
     {
-      "id": "6052",
-      "rollno": "102",
-      "name": "prashant",
+      "id": "f971",
+      "rollno": "1",
+      "name": "Tushar",
       "city": "indore",
       "fees": "10000"
     },
     {
-      "id": "1d0f",
-      "rollno": "103",
-      "name": "vineet",
-      "city": "indore",
-      "fees": "20000"
+      "id": "51fa",
+      "rollno": "2",
+      "name": "Tanishk",
+      "city": "Bhopal ",
+      "fees": "45000"
     },
     {
-      "id": "904e",
-      "rollno": "104",
-      "name": "vinay",
-      "city": "indore",
+      "id": "078f",
+      "rollno": "3",
+      "name": "Vineet",
+      "city": "Jabalpur",
       "fees": "30000"
     }
   ]

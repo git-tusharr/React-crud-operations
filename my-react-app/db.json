@@ -3,7 +3,7 @@
     {
       "id": "f971",
       "rollno": "1",
-      "name": "Tushar",
+      "name": "tushar",
       "city": "indore",
       "fees": "10000"
     },
@@ -19,6 +19,13 @@
       "rollno": "3",
       "name": "Vineet",
       "city": "Jabalpur",
+      "fees": "30000"
+    },
+    {
+      "id": "2784",
+      "rollno": "4",
+      "name": "prashant",
+      "city": "Bhopal ",
       "fees": "30000"
     }
   ]

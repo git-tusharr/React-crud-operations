@@ -22,14 +22,14 @@ const App=()=>{
       <Routes>
         <Route path="/" element={<Layout/>}>
 
-          <Route path="Home" element={<Home/>}></Route>
-          <Route index element={<Home></Home>}></Route>
-          <Route path="Insert" element={<Insert></Insert>}></Route>
-          <Route path="Contact" element={<Contact></Contact>} ></Route>   
-          <Route path="Display" element={<Display></Display>}   ></Route>
-          <Route path="Search" element={<Search></Search>}></Route>
-          <Route path="Update" element={<Update></Update>}></Route>
-          <Route path="myEdit/:id" element={<MyEdit></MyEdit>}></Route>
+            <Route path="Home" element={<Home/>}></Route>
+            <Route index element={<Home></Home>}></Route>
+            <Route path="Insert" element={<Insert></Insert>}></Route>
+            <Route path="Contact" element={<Contact></Contact>} ></Route>   
+            <Route path="Display" element={<Display></Display>}   ></Route>
+            <Route path="Search" element={<Search></Search>}></Route>
+            <Route path="Update" element={<Update></Update>}></Route>
+            <Route path="myEdit/:id" element={<MyEdit></MyEdit>}></Route>
 
         </Route>
       </Routes>

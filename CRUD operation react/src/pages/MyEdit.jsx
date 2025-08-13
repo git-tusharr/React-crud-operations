@@ -30,11 +30,6 @@ const MyEdit = () => {
     }, []);
 
 
-
-    
-
-
-
     const handleSubmit = async () => {
         let api = `http://localhost:3000/students/${id}`;
         const response = await axios.put(api, myData);
@@ -47,11 +42,6 @@ const MyEdit = () => {
     return (
         <>
             <h1>Edit Records :{id}</h1>
-
-
-
-
-
 
             edit Roll number: <input type="text" name="rollno" value={myData.rollno} onChange={handleInput} />
 

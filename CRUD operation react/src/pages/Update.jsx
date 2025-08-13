@@ -42,8 +42,6 @@ const Update=()=>{
     console.log(response);
     toast.success("data deleted succesfullyy!!");
     loadData();
-
-
     }
 
 
@@ -73,7 +71,6 @@ const Update=()=>{
         )
     })
 
-    
     return(
         <>
         <h1>This is my display page</h1>
@@ -87,8 +84,6 @@ const Update=()=>{
             </tr>
             {ans}
         </table>
-
-
 
         <ToastContainer></ToastContainer>
          

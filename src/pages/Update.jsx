@@ -30,7 +30,7 @@ const Update=()=>{
 
     const myEdit=async(id)=>{
     
-    navigate(`/MyEdit/${id}`)
+    navigate(`/MyEdit/${id}`)   
     }
 
 

@@ -29,7 +29,7 @@ const App=()=>{
             <Route path="Display" element={<Display></Display>}   ></Route>
             <Route path="Search" element={<Search></Search>}></Route>
             <Route path="Update" element={<Update></Update>}></Route>
-            <Route path="myEdit/:id" element={<MyEdit></MyEdit>}></Route>
+            <Route path="/myEdit/:id" element={<MyEdit></MyEdit>}></Route>
 
         </Route>
       </Routes>

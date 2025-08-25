@@ -1,4 +1,4 @@
-import { use, useState } from "react";
+import { useState } from "react";
 
 import axios from "axios";
 
@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Insert=()=>{
 
-    const [input,setInput]=useState({})
+    const [input,setInput]=useState({});
 
 
     const handleInput=(e)=>{

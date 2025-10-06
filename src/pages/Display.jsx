@@ -31,7 +31,6 @@ const Display=()=>{
         )
     })
 
-    
     return(
         <>
         <h1>This is my display page</h1>

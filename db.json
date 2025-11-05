@@ -1,25 +1,11 @@
 {
   "students": [
     {
-      "id": "f971",
+      "id": "6a8e",
       "rollno": "1",
-      "name": "tushar",
-      "city": "jabalpur",
+      "name": "Tushar Chourasiya ",
+      "city": "indore",
       "fees": "10000"
-    },
-    {
-      "id": "51fa",
-      "rollno": "2",
-      "name": "Tanishk",
-      "city": "Bhopal ",
-      "fees": "45000"
-    },
-    {
-      "id": "078f",
-      "rollno": "3",
-      "name": "Vineet",
-      "city": "Jabalpur",
-      "fees": "30000"
     }
   ]
 }
